@@ -1,0 +1,65 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>QSOFT</title>
+	</head>
+	<body>
+		<header class="header">
+			<a href="/" class="header__link"><img class="logo header__logo" src="/static/header/logo.svg"></a>
+			<search class="search header__search" role="search">
+					<form action="/search" method="get" class="seacrh__wrapper">
+						<button class="search__button"><img src="/static/header/search__icon.svg" alt="search" class="search__icon"></button>
+						<input id="query" type="search" class="search__field" placeholder="Найти...">
+					</form>
+			</search>
+			<button class="profile header__profile">
+				<span class="profile__text">Константин</span>
+				<div class="profile__icon"></div>
+			</button>
+		</header>
+		<main class="page">
+			<h1 class="title page__title">Наши партнеры</h1>
+				<div class="cards page__cards">
+					<button class="card cards__card">
+						<img src="/static/main/card/img/henkel.svg" alt="brand logo" class="card__icon">
+					</button>
+
+					<button class="card cards__card">
+						<img src="/static/main/card/img/caterpillar.svg" alt="brand logo" class="card__icon">
+					</button>
+
+					<button class="card cards__card">
+						<img src="/static/main/card/img/ikea.svg" alt="brand logo" class="card__icon">
+					</button>
+
+					<button class="card cards__card">
+						<img src="/static/main/card/img/john.svg" alt="brand logo" class="card__icon">
+					</button>
+
+					<button class="card cards__card">
+						<img src="/static/main/card/img/mac.svg" alt="brand logo" class="card__icon">
+					</button>
+
+					<button class="card cards__card">
+						<img src="/static/main/card/img/nike.svg" alt="brand logo" class="card__icon">
+					</button>
+
+					<button class="card cards__card">
+						<img src="/static/main/card/img/reebok.svg" alt="brand logo" class="card__icon">
+					</button>
+				</div>
+		</main>
+		<footer></footer>
+		<script src="/static/header/header.js"></script>
+	</body>
+	</html>
